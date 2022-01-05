@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+.orange{
+    color: orange;
+}
+.photos{
+    text-decoration: none;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.half-width{
+    width: 50%;
+    margin: 40px;
+}
+.first-section{
+    display: flex;
+}
+.image{
+    width: 90%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
