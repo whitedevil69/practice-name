@@ -5,6 +5,10 @@ h1{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
+h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
 h3{
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
@@ -16,7 +20,7 @@ p{
 .orange{
     color: orange;
 }
-.photos{
+.button{
     text-decoration: none;
     background-color: orange;
     padding: 15px;
@@ -28,8 +32,9 @@ p{
     width: 50%;
     margin: 40px;
 }
-.first-section{
+.side-by-syde{
     display: flex;
+    
 }
 .image{
     width: 90%;
@@ -37,4 +42,23 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.background-image{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.border{
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 15px;
+}
+#left{
+    border-left: 7px solid tomato;
+}
+#right{
+    border-left: 7px solid lightgreen;
+}
+footer{
+    text-align: center;
+    font-weight: 700;
 }
